@@ -1,5 +1,6 @@
 * {
-    font-family: Verdana, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(43,52,69);
 }
 
 body{
@@ -18,7 +19,7 @@ header {
     height: auto;
     margin: 0;
     padding: 0.2em;
-    background-color: rgb(241, 253, 253);
+    background-color: rgb(241, 245, 249);
 }
 
 span {
@@ -47,11 +48,16 @@ li {
 }
 
 nav ul li a {
-    color: black;
+    color: rgb(43,52,69);
 }
 
 nav ul li a#active {
-    color: #f34d00;
+    color: rgb(254, 105, 106);
+}
+
+nav ul li a#active:hover {
+    color: rgba(254,105,106,0.5);
+
 }
 
 
@@ -73,6 +79,11 @@ h2 {
     font-size: 20px;
 }
 
+h3 {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
 img {
     width: auto;
     margin-top: 0.8em;
@@ -86,6 +97,10 @@ p {
 a {
     text-decoration: none;
     color:#f34d00;
+}
+
+a:hover {
+    color: rgba(254,105,106,0.5);
 }
 
 ol li{
@@ -118,6 +133,11 @@ footer{
     align-items: flex-end;
     font-size: 24px;
     font-weight: bold;
+    color: rgb(43,52,69);
+}
+
+.header__title:hover{
+    color: rgb(43,52,69);
 }
 
 .container {
@@ -149,7 +169,8 @@ footer{
     min-width: 5px;
     height: auto;
     margin-right: 0.8em;
-    background-color: #f34d00;
+    background-color: rgb(254, 105, 106)
+    ;
 }
 
 .autor__text {
@@ -170,4 +191,33 @@ footer{
 
 .users__img {
     list-style-image: url("../img/users.svg");
+}
+
+.redes__container-section {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes__container-section p {
+    margin: 0.35em 0;
+}
+
+.redes__container-section--img {
+    display: block;
+    text-align: center;
+}
+
+.redes__container-section--img img {
+    margin: 0;
+    width: 250px;
+}
+
+.redes__container-section--img p {
+    font-size: 8px;
+}
+
+.mas__info {
+    padding-top: 0.75em;
+    padding-bottom: 1em;
 }
