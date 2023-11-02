@@ -33,7 +33,7 @@ nav {
     align-items: center;
 }
 
-ul {
+nav ul {
     list-style: none;
     text-align: center;
     padding: 0;
@@ -87,6 +87,16 @@ a {
     text-decoration: none;
     color:#f34d00;
 }
+
+ol li{
+    font-weight: lighter;
+}
+
+ul {
+    list-style: disc;
+    margin: 1em 0;
+}
+
 
 footer{
     display: flex;
@@ -152,4 +162,12 @@ footer{
 .bibliografia{
     margin: 2.5em 0;
     font-size: 9px;
+}
+
+.list__title {
+    font-size: 16px;
+}
+
+.users__img {
+    list-style-image: url("../img/users.svg");
 }
