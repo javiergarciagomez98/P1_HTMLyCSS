@@ -10,6 +10,8 @@ body{
     padding: 0;
 }
 
+
+/* Header */
 header {
     display: block;
     width: auto;
@@ -25,12 +27,17 @@ span {
     font-size: 56px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 ul {
-    display: block;
-    margin: 1em;
-    padding: 0;
     list-style: none;
     text-align: center;
+    padding: 0;
+    margin: 1em 0 0 0;
 }
 
 li {
@@ -39,6 +46,16 @@ li {
     font-size: 12px;
 }
 
+nav ul li a {
+    color: black;
+}
+
+nav ul li a#active {
+    color: #f34d00;
+}
+
+
+/* Content */
 main {
     display: flex;
     justify-content: center;
